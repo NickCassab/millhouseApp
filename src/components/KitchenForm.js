@@ -49,7 +49,7 @@ class KitchenForm extends Component {
             email: '',
             name: '',
             wallLength: 20,
-            desiredHeight: 3,
+            // desiredHeight: 3,
             sinkFromWall: 5,
             range: 10,
         }
@@ -72,7 +72,7 @@ class KitchenForm extends Component {
                     email: '',
                     name: '',
                     wallLength: 20,
-                    desiredHeight: 3,
+                    // desiredHeight: 3,
                     sinkFromWall: 5,
                     range: 10,
                 })
@@ -120,7 +120,7 @@ class KitchenForm extends Component {
                                 endAdornment={<InputAdornment position="start">Ft</InputAdornment>}
                             />
                         </FormControl>
-                        <FormControl>
+                        {/* <FormControl>
                             <InputLabel htmlFor="desired-height">Desired Height</InputLabel>
                             <Input
                                 className={classNames(classes.textField, classes.margin)}
@@ -131,7 +131,7 @@ class KitchenForm extends Component {
                                 onChange={this.handleChangeFor('desiredHeight')}
                                 endAdornment={<InputAdornment position="start">Ft</InputAdornment>}
                             />
-                        </FormControl>
+                        </FormControl> */}
                         <FormControl>
                             <InputLabel htmlFor="sink-wall-dist">Sink and Wall Distance</InputLabel>
                             <Input
