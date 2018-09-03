@@ -9,7 +9,7 @@ router.post('/', (req, res) => {
         Email: req.body.email, 
         Name: req.body.name, 
         WallLength: parseFloat(req.body.wallLength), 
-        DesiredHeight: parseFloat(req.body.desiredHeight),
+        // DesiredHeight: parseFloat(req.body.desiredHeight),
         SinkFromWall: parseFloat(req.body.sinkFromWall),
         Range: parseFloat(req.body.range) }, 
         function(err, record) {
